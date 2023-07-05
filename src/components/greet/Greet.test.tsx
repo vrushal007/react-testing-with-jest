@@ -7,9 +7,9 @@ describe('Greet', () => {
     const testElement = screen.getByText(/hello/i)
     expect(testElement).toBeInTheDocument()
   })
-  test('renders with name correctly',()=>{
-    render(<Greet name="Vrushal" />)
-    const testElement = screen.getByText(/hello Vrushal/i)
+  test('renders with name Smit correctly',()=>{
+    render(<Greet />)
+    const testElement = screen.getByText(/hello/i)
     expect(testElement).toBeInTheDocument()
   })
 })
